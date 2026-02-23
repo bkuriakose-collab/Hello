@@ -8,3 +8,6 @@
 TEST_CASE( "it returns Hello World" ) {
     REQUIRE( hello() == "Hello World!" );
 }
+TEST_CASE("I wrote a another function that does cool stuff") {
+    REQUIRE(hello() == "Hello World!");
+}
